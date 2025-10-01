@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>منتجات أساسية لليمن</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+      direction: rtl;
+      color: #222;
+    }
+    header {
+      text-align: center;
+      padding: 10px 0 30px 0;
+      border-bottom: 2px solid #009578;
+    }
+    header h1 {
+      margin: 0;
+      color: #009578;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 0;
+      list-style: none;
+    }
+    .product-item {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+      padding: 15px;
+      width: 260px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .product-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+    .product-img {
+      width: 100%;
+      height: 180px;
+      object-fit: contain;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 10px;
+    }
+    .product-name {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      color: #333;
+      font-weight: 600;
+      min-height: 48px;
+    }
+    .product-desc {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 15px;
+      min-height: 48px;
+    }
+    .btn-buy {
+      display: inline-block;
+      background: #009578;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn-buy:hover {
+      background: #007a58;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px 0;
+      color: #666;
+      font-size: 0.9rem;
+      border-top: 1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>منتجات عالية الطلب</h1>
+    <p>حلول عملية وموثوقة لتلبية الاحتياجات الأساسية</p>
+  </header>
+
+  <main>
+    <ul class="product-list">
+      <!-- المنتج الأول: نظام طاقة شمسية -->
+      <li class="product-item">
+        <img src="https://m.media-amazon.com/images/I/71Y5o20-M7L._AC_SL1500_.jpg" alt="نظام طاقة شمسية" class="product-img" />
+        <h2 class="product-name">نظام طاقة شمسية متكامل</h2>
+        <p class="product-desc">عدة طاقة شمسية مع لوح شمسي وبطارية ومخارج USB لإضاءة وتشغيل الأجهزة الصغيرة.</p>
+        <a href="https://www.amazon.sa/dp/B09C1YJ3XG?tag=your-affiliate-id-21" target="_blank" class="btn-buy">اطلب الآن</a>
+      </li>
+
+      <!-- المنتج الثاني: باور بانك -->
+      <li class="product-item">
+        <img src="https://m.media-amazon.com/images/I/61-v3q426gL._AC_SL1500_.jpg" alt="باور بانك" class="product-img" />
+        <h2 class="product-name">باور بانك سعة 30,000</h2>
+        <p class="product-desc">شاحن متنقل بسعة ضخمة لشحن الهواتف والأجهزة عدة مرات. ضروري عند انقطاع الكهرباء.</p>
+        <a href="https://www.amazon.sa/dp/B08JV31F22?tag=your-affiliate-id-21" target="_blank" class="btn-buy">اطلب الآن</a>
+      </li>
+
+      <!-- المنتج الثالث: فلتر مياه -->
+      <li class="product-item">
+        <img src="https://m.media-amazon.com/images/I/71y-1Z+H+wL._AC_SL1500_.jpg" alt="فلتر مياه" class="product-img" />
+        <h2 class="product-name">فلتر مياه محمول</h2>
+        <p class="product-desc">فلتر شخصي لتنقية المياه من أي مصدر، يزيل البكتيريا والشوائب للحصول على ماء شرب آمن.</p>
+        <a href="https://www.amazon.sa/dp/B07Q368B9K?tag=your-affiliate-id-21" target="_blank" class="btn-buy">اطلب الآن</a>
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>© 2025 موقعي للأفلييت. (ملاحظة: الشراء يتم عبر أمازون وقد تحتاج لعنوان شحن وسيط)</p>
+  </footer>
+</body>
+</html>
